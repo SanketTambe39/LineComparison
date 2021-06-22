@@ -15,7 +15,7 @@ public class LineComparison {
 		System.out.printf("Length of First Line is :: %.2f \n",LENGTH_OF_FIRST_LINE);
 		System.out.printf("Length of Second Line is :: %.2f \n",LENGTH_OF_SECOND_LINE);
 	
-		if (LENGTH_OF_FIRST_LINE == LENGTH_OF_SECOND_LINE) {
+		if (LengthOfLine1.equals(LengthOfLine2) ) {
 			System.out.println("Lines Are Equal");
 		}
 		else {
